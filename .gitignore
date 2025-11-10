@@ -43,3 +43,5 @@ yarn-error.*
 # IDE
 .vscode/
 .idea/
+.cursorrules
+.cursor/
