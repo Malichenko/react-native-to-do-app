@@ -1,6 +1,6 @@
 import { Text, StyleSheet } from "react-native";
-import { Modal } from "../../../shared/ui";
-import { AddGoalForm } from "../../../features/goals";
+import { Modal } from "@shared/ui";
+import { AddGoalForm } from "@features/goals";
 
 type AddGoalModalProps = {
   visible: boolean;

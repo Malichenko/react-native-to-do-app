@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { View, StyleSheet, FlatList, ImageBackground } from "react-native";
-import type { Goal } from "../../../entities/goal";
-import { GoalItem } from "../../../entities/goal";
+import type { Goal } from "@entities/goal";
+import { GoalItem } from "@entities/goal";
 
 type GoalListProps = {
   goals: Goal[];
@@ -19,7 +19,7 @@ export const GoalList = ({ goals, onDelete }: GoalListProps) => {
     setScrollEnabled(true);
   };
   const backgroundImage = useMemo(
-    () => require("../../../shared/assets/todo-background.png"),
+    () => require("@shared/assets/todo-background.png"),
     []
   );
 

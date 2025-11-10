@@ -1,6 +1,6 @@
 import { useState } from "react";
-import type { Goal } from "../../../entities/goal";
-import { useGoalsStore } from "../../../entities/goal";
+import type { Goal } from "@entities/goal";
+import { useGoalsStore } from "@entities/goal";
 
 type UseGoalsReturn = {
   goals: Goal[];

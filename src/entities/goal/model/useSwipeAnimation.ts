@@ -9,7 +9,7 @@ import {
   clampSwipeDistance,
   shouldOpenActions,
 } from "../lib/utils/swipeHelpers";
-import { noop } from "../../../shared/lib";
+import { noop } from "@shared/lib";
 
 export const useSwipeAnimation = ({
   onSwipeStart,

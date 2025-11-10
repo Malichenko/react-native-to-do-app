@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { View, TextInput, StyleSheet } from "react-native";
-import { Button } from "../../../../shared/ui";
+import { Button } from "@shared/ui";
 
 type AddGoalFormProps = {
   onSubmit: (text: string) => void;

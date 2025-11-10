@@ -1,7 +1,7 @@
 import { StyleSheet, View } from "react-native";
-import { Button } from "../../../shared/ui";
-import { GoalList } from "../../../widgets/goal-list";
-import { AddGoalModal } from "../../../widgets/add-goal-modal";
+import { Button } from "@shared/ui";
+import { GoalList } from "@widgets/goal-list";
+import { AddGoalModal } from "@widgets/add-goal-modal";
 import { useGoals } from "../model";
 
 export const GoalsScreen = () => {
